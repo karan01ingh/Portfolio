@@ -29,16 +29,16 @@ function App() {
         </div>
       </div>
       {/* About section */}
-      <div className='h-screen w-full bg-pink-400 flex flex-col text-center items-center justify-center justify-around p-10' id='About'>
-        <div className='text-center bg-gray-400 h-1/5'>
+      <div className='h-screen w-full  flex flex-col text-center items-center justify-center justify-around p-10 bg-blue-500' id='About'>
+        <div className='text-center  h-1/5'>
            <p className='text-lg font-medium text-zinc-900'>Get To Know More</p>
            <h1 className='text-5xl font-semibold text-zinc-950'>About me </h1>
         </div>
-        <div className='flex flex-row w-full h-4/5  bg-blue-500'>
-          <div className='h-full w-1/3 bg-black-300 flex flex-row justify-end items-end pt-14 pl-14 pb-14'>
+        <div className='flex flex-row w-full h-4/5 '>
+          <div className='h-full w-1/3  flex flex-row justify-end items-end pt-14 pl-14 pb-14'>
               <img src="https://images.pexels.com/photos/5756484/pexels-photo-5756484.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className='h-full rounded-md' />
           </div>
-          <div className='h-full w-3/4 bg-red-400 flex flex-col justify-center items-center p-14'>
+          <div className='h-full w-3/4  flex flex-col justify-center items-center p-14'>
               <div className='w-full h-2/5 flex flex-row justify-around'>
                   <div className='h-full w-3/5 border-2 border-zinc-950 rounded-lg ml-16 mr-5 p-3 flex flex-col items-center'>
                   <img src="https://cdn-icons-png.flaticon.com/128/9232/9232084.png" alt=""  className='h-10 w-10'/>
@@ -55,14 +55,73 @@ function App() {
                   <p className='text-lg font-normal font-sans text-zinc-900'>FullStack Development </p>
                   </div>
               </div>
-              <div className='w-4/5 h-2/5 border-2 border-zinc-950 rounded-lg flex flex-row justify-center items-center font-sans text-zinc-900 text-lg'>
+              <div className='w-4/5 h-2/5  flex flex-row justify-center items-center font-sans text-zinc-900 text-lg'>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis quidem quaerat vitae eos nihil, reprehenderit, perferendis fugit non repellat harum rem quisquam. Amet eaque quam laboriosam quas suscipit vel eligendi!Lorem
               </div>
           </div>
         </div>
       </div>
       {/* Skills */}
-      <div className='h-screen w-full bg-yellow-300' id='Skills'></div>
+      <div className='h-screen w-full  flex flex-col pt-10 justify-center items-center bg-green-300'  id='Skills'>
+        <h1 className='h-1/4'>
+          <p className='text-lg font-medium text-zinc-900 text-center'>Explore My </p>
+          <p className='text-5xl font-semibold text-zinc-950 text-center'>Skills</p>
+        </h1>
+        {/* <div className='w-4/5 h-1/4'>
+          <div className='border-2 border-zinc-950 rounded-lg w-2/5 h-full p-5 text-center'>
+             <h1 className='text-2xl font-semibold '>FrontEnd Development</h1>
+             <div className='flex flex-row w-full h-full '>
+              <div className=' flex flex-col justify-center justify-evenly w-1/2 text-lg  font-medium font-sans'>
+                <h1>HTML</h1>
+                <h1>JavaScript</h1>
+                <h1>TypeScript</h1>
+              </div>
+              <div className=' flex flex-col justify-center justify-evenly w-1/2 text-lg font-medium font-sans'>
+              <h1>CSS</h1>
+                <h1>ReactJs</h1>
+                <h1>NextJs</h1>
+              </div>
+             </div>
+          </div>
+          <div>
+
+          </div>
+        </div> */}
+        <div className='h-80 w-3/5 border-2 border-zinc-950 bg-zinc-900 flex flex-col rounded-lg'>
+        <div className='h-36 w-full p-2 flex flex-row'>
+        <div className='h-full w-1/5 m-2'>
+        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" alt="" className='hover:scale-105' />
+        </div>
+        <div className='h-full w-1/5 m-2'>
+        <img src="https://cdn-icons-png.flaticon.com/128/174/174854.png" alt="" className='hover:scale-105' />
+        </div>
+        <div className='h-full w-1/5 m-2'>
+        <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="" className='hover:scale-105'/>
+        </div>
+        <div className='h-full w-1/5 m-2'>
+        <img src="https://cdn-icons-png.flaticon.com/128/760/760457.png" alt="" className='hover:scale-105'/>
+        </div>
+        <div className='h-full w-1/5 m-2'>
+        <img src="https://cdn-icons-png.flaticon.com/128/919/919825.png" alt="" className='hover:scale-105'/>
+        </div>
+        </div>
+        <div className='h-36 w-full p-2 flex flex-row'>
+        <div className='h-full w-1/5 m-2'>
+        <img src="https://cdn-icons-png.flaticon.com/128/6132/6132222.png" alt="" className='hover:scale-105'/>
+        </div>
+        <div className='h-full w-1/5 m-2'>
+        <img src="https://cdn-icons-png.flaticon.com/128/3098/3098090.png" alt="" className='hover:scale-105' />
+        </div>
+        <div className='h-full w-1/5 m-2'>
+        <img src="" alt="" />
+        </div>
+        <div className='h-full w-1/5 m-2'></div>
+        <div className='h-full w-1/5 m-2'></div>
+        </div>
+        </div>
+      </div>
+      {/* Projects */}
+
     </div>
   )
 }
