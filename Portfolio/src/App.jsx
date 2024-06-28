@@ -6,7 +6,7 @@ function App() {
     <div className='h-auto w-dvw'>
       <Navbar/>
       {/* Home Page */}
-      <div className='h-screen w-full bg-red-400 flex flex-row bg-green-200 text-center '>
+      <div className='h-screen w-full bg-red-400 flex flex-row bg-green-200 text-center ' id='Home'>
         {/* image portion */}
         <div className='bg-orange-400 w-1/2 flex flex-row justify-end items-center pr-3'>
           <img src="https://images.unsplash.com/photo-1674082340246-8e99af96b10b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGh0b3Nob290fGVufDB8fDB8fHww" alt="Something is wrong"  className='h-56 w-56 rounded-full object-cover'/>
@@ -18,8 +18,8 @@ function App() {
              <h1 className='text-4xl font-semibold mt-2'>Karan Singh</h1>
              <h1 className='text-lg font-medium mt-2'>Software Developer</h1>
           <div>
-           <button className='h-auto w-auto rounded-full border-2 p-2 text-xs font-medium border-zinc-950 mt-2 mr-2'>Download CV</button>
-           <button className='h-auto w-auto rounded-full border-2 border-zinc-950 p-2 text-xs font-medium text-white bg-zinc-950 mt-3 ml-2'>Contact Info</button>
+           <button className='h-auto w-auto rounded-full border-2 p-2 text-xs font-medium border-zinc-950 mt-2 mr-2 hover:bg-zinc-950 hover:text-white  transition duration-300 ease-in-out'>Download CV</button>
+           <button className='h-auto w-auto rounded-full border-2 border-zinc-950 p-2 text-xs font-medium text-white bg-zinc-950 mt-3 ml-2 hover:bg-white hover:text-zinc-950'>Contact Info</button>
           </div>
           <div className='flex flex-row justify-center mt-3'>
             <img src="https://cdn-icons-png.flaticon.com/128/3669/3669739.png" alt="retry" className='h-6 w-6 mr-2' />
@@ -176,7 +176,22 @@ function App() {
         </div>
         </div>
       </div>
-
+      {/* Conatct Us */}
+      <div className='h-screen w-full  flex flex-col pt-10 justify-center items-center bg-indigo-500 justify-around'  id='Contact'>
+        <div className='text-center'>
+          <h1 className='text-lg font-medium text-zinc-900 text-centers m-2'>Get In Touch</h1>
+          <h1 className='text-5xl font-semibold text-zinc-950 text-center m-2 mb-10'>Contact Me</h1>
+          <div className='border-2 border-zinc-800 p-2 rounded-3xl mt-5 flex flex-row '>
+            <img src="https://cdn-icons-png.flaticon.com/128/3178/3178158.png" alt="" className='h-10 w-10' />
+            <h1 className='text-lg font-medium text-zinc-900 text-centers ml-1 mt-1'>Example@gmail.com</h1>
+          </div>
+        </div>
+        <div className='flex flex-row justify-center w-1/3  h-20 text-xl font-semibold text-zinc-900 justify-between'>
+        <a href="#About"  className=' hover:underline'>About</a><a href="#Skills" className='transition duration-150 ease-in hover:underline'>Skills</a><a href="#Projects" className='transition duration-150 ease-in hover:underline'>Projects</a>
+        <a  className='transition duration-150 ease-in hover:underline' href="#Home">Home</a>
+        </div>
+        <footer className='text-sm text-zinc-900'>Copyright © 2024 Karan Singh. All Right Reserved</footer>
+      </div>
     </div>
   )
 }
