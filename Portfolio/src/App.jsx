@@ -121,6 +121,61 @@ function App() {
         </div>
       </div>
       {/* Projects */}
+      <div className='h-screen w-full flex flex-col pt-5 justify-center items-center bg-pink-500' id='Projects'>
+      <h1 className='h-1/4'>
+          <p className='text-lg font-medium text-zinc-900 text-center'>Browse My Recents </p>
+          <p className='text-5xl font-semibold text-zinc-950 text-center'>Projects</p>
+        </h1>
+        <div className='w-full h-2/3 bg-green-500 flex flex-row justify-around p-10'>
+        <div className='h-full w-1/5 m-2 bg-orange-400 p-5 rounded-3xl border-2 border-zinc-600'>
+        <img src="https://cdn.pixabay.com/photo/2018/01/30/06/01/timeline-3117957_640.jpg" alt="" className='rounded-3xl h-1/2 w-full hover:shadow-2xl  transition ease-in-out hover:scale-110'/>
+        <div className='text-2xl font-sans text-medium font-semibold text-zinc-900 p-1 text-center'>Title</div>
+        <h1 className='font-semibold text-zinc-900'>Descreption-</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab saepe quibus</h2>
+        <div className='flex flex-row justify-center justify-around pt-5'>
+          
+          <button className=' w-24 border-2 border-zinc-800 p-1 rounded-full text-sm hover:bg-zinc-900 hover:text-white transition duration-300 ease-in-out'><a href="https://github.com/karan01ingh/Portfolio">Github</a></button>
+          <button className=' w-24 border-2 border-zinc-800 p-1 rounded-full text-sm hover:bg-zinc-900 hover:text-white transition duration-300 ease-in-out'><a href="">Live Demo</a></button>
+        </div>
+
+        </div>
+        <div className='h-full w-1/5 m-2 bg-orange-400 rounded-3xl p-5 border-2 border-zinc-600 flex flex-col'>
+        <img src="https://cdn.pixabay.com/photo/2019/12/14/07/21/document-4694351_640.png" alt="" className='rounded-3xl h-1/2 w-full hover:shadow-2xl transition ease-in-out hover:scale-110'/>
+        <div className='text-2xl font-sans text-medium font-semibold text-zinc-900 p-1 text-center'>Title</div>
+        <h1 className='font-semibold text-zinc-900'>Descreption-</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab saepe quibus</h2>
+        <div className='flex flex-row justify-center justify-around pt-5'>
+          
+          <button className=' w-24 border-2 border-zinc-800 p-1 rounded-full text-sm hover:bg-zinc-900 hover:text-white transition duration-300 ease-in-out'><a href="https://github.com/karan01ingh/Portfolio">Github</a></button>
+          <button className=' w-24 border-2 border-zinc-800 p-1 rounded-full text-sm hover:bg-zinc-900 hover:text-white transition duration-300 ease-in-out'><a href="">Live Demo</a></button>
+        </div>
+        </div>
+        <div className='h-full w-1/5 m-2 bg-orange-400 rounded-3xl p-5 border-2 border-zinc-600'>
+        <img src="https://cdn.pixabay.com/photo/2021/12/29/02/10/idea-6900632_640.png" alt="" className='rounded-3xl h-1/2 w-full hover:shadow-2xl transition ease-in-out hover:scale-110'/>
+        <div className='text-2xl font-sans text-medium font-semibold text-zinc-900 p-1 text-center'>Title</div>
+        <h1 className='font-semibold text-zinc-900'>Descreption-</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab saepe quibus</h2>
+        <div className='flex flex-row justify-center justify-around pt-5'>
+          
+          <button className=' w-24 border-2 border-zinc-800 p-1 rounded-full text-sm hover:bg-zinc-900 hover:text-white transition duration-300 ease-in-out'><a href="https://github.com/karan01ingh/Portfolio">Github</a></button>
+          <button className=' w-24 border-2 border-zinc-800 p-1 rounded-full text-sm hover:bg-zinc-900 hover:text-white transition duration-300 ease-in-out'><a href="">Live Demo</a></button>
+        </div>
+
+        </div>
+        <div className='h-full w-1/5 m-2 bg-orange-400 rounded-3xl p-5 border-2 border-zinc-600'>
+        <img src="https://cdn.pixabay.com/photo/2023/11/04/10/35/woman-8364633_640.jpg" alt="" className='rounded-3xl h-1/2 w-full object-contain hover:shadow-2xl transition ease-in-out hover:scale-110 '/>
+        <div className='text-2xl font-sans text-medium font-semibold text-zinc-900 p-1 text-center'>Title</div>
+        <h1 className='font-semibold text-zinc-900'>Descreption-</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab saepe quibus</h2>
+        <div className='flex flex-row justify-center justify-around pt-5'>
+          
+          <button className=' w-24 border-2 border-zinc-800 p-1 rounded-full text-sm hover:bg-zinc-900 hover:text-white transition duration-300 ease-in-out'><a href="https://github.com/karan01ingh/Portfolio">Github</a></button>
+          <button className=' w-24 border-2 border-zinc-800 p-1 rounded-full text-sm hover:bg-zinc-900 hover:text-white transition duration-300 ease-in-out'><a href="">Live Demo</a></button>
+        </div>
+
+        </div>
+        </div>
+      </div>
 
     </div>
   )
